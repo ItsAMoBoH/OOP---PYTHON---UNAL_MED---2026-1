@@ -27,7 +27,7 @@ class TipoAutomovil(Enum):
 
 
 class Automovil:
-    def __init__(self, marca, modelo=0, motor=0.0, tipoCombustible = None , tipoAutomovil = None, numeroPuertas=0, cantidadAsientos=0, velocidadMaxima=0.0, color = None, velocidadActual=0.0):
+    def __init__(self, marca = None, modelo=None, motor=None, tipoCombustible = None , tipoAutomovil = None, numeroPuertas=0, cantidadAsientos=0, velocidadMaxima=0.0, color = None, velocidadActual=0.0):
         self.marca = marca
         self.modelo = modelo
         self.motor = motor
